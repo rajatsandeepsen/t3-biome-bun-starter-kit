@@ -10,9 +10,11 @@ If you are not familiar with the different technologies used in this project, pl
 
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
+- [Bun](https://bun.sh)
+- [Biome](https://biomejs.dev)
 - [Drizzle](https://orm.drizzle.team)
 - [Tailwind CSS](https://tailwindcss.com)
+- [shadcn-ui](https://ui.shadcn.com)
 - [tRPC](https://trpc.io)
 
 ## Learn More
