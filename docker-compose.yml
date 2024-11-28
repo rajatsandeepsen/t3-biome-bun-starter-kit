@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  app:
+    platform: "linux/amd64"
+    depends_on:
+      - postgres
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_CLIENTVAR: "clientvar"
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    image: t3-app
+    env_file: .env
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+
+  postgres:
+    image: postgres@latest
+    restart: always
+    env_file: .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_HOST: ${POSTGRES_HOST}
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_data:/var/lib/postgres
+
+volumes:
+  postgres_data:
