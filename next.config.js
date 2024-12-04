@@ -5,6 +5,11 @@
 await import("./env.js");
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+	experimental: {
+        typedRoutes: true,
+		reactCompiler: true,
+	},
+};
 
 export default config;
