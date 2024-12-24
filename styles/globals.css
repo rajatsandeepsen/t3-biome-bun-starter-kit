@@ -5,6 +5,7 @@
 
 /* Plugins */
 @plugin "tailwindcss-animate";
+@plugin "tailwindcss-motion";
 @plugin "@tailwindcss/container-queries";
 @plugin "@tailwindcss/typography";
 

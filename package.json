@@ -55,7 +55,8 @@
     "drizzle-kit": "^0.28.1",
     "pg": "^8.13.1",
     "postcss": "^8.4.49",
-    "typescript": "^5.7.2",
-    "shadcn-ui": "^0.8.0"
+    "shadcn-ui": "^0.8.0",
+    "tailwindcss-motion": "^1.0.0",
+    "typescript": "^5.7.2"
   }
 }
