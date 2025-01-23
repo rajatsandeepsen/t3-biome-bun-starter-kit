@@ -48,7 +48,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.6.4",
+    "@biomejs/biome": "^1.9.4",
     "@types/node": "^20.17.9",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
@@ -57,6 +57,7 @@
     "postcss": "^8.4.49",
     "shadcn-ui": "^0.8.0",
     "tailwindcss-motion": "^1.0.0",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "ultracite": "^4.1.16"
   }
 }
