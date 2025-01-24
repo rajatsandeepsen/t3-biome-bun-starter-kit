@@ -8,6 +8,7 @@
 @plugin "tailwindcss-motion";
 @plugin "@tailwindcss/container-queries";
 @plugin "@tailwindcss/typography";
+@plugin "tailwind-corner-smoothing";
 
 
 @layer base {
