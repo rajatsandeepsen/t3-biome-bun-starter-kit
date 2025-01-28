@@ -31,6 +31,7 @@
     "clsx": "^2.1.1",
     "drizzle-orm": "^0.36.4",
     "lucide-react": "^0.378.0",
+    "million": "^3.1.11",
     "next": "^15.1.6",
     "next-auth": "^4.24.11",
     "postgres": "^3.4.5",
