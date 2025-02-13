@@ -22,5 +22,6 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
-  }
+  },
+  "typescript.preferences.autoImportFileExcludePatterns": ["@radix-ui/*"]
 }
