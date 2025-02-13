@@ -8,6 +8,7 @@ import { next } from 'million/compiler';
 
 /** @type {import("next").NextConfig} */
 const config = {
+  trailingSlash: true,
   experimental: {
     typedRoutes: true,
     reactCompiler: true,
